@@ -14,6 +14,7 @@ export default function Index({ children }) {
       duration: 1,
       ease: "elastic.out(1, 0.3)",
     });
+    let what = 0;
 
     magnetic.current.addEventListener("mousemove", (e) => {
       const { clientX, clientY } = e;
