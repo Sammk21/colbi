@@ -18,7 +18,7 @@ const DrodownContent = ({ items }) => {
       <div className="w-[80vw] ">
         <ul className="overflow-hidden ">
           {items.map((items, index) => (
-            <div>
+            <div key={index}>
               <span
                 className="flex items-center gap-2 w-[auto] cursor-pointer"
                 onClick={() => handleIsChecked(index)}

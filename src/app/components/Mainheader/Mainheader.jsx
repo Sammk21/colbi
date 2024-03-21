@@ -9,7 +9,7 @@ const InfoHeader = ({ paragraph }) => {
       <div className=" flex justify-center flex-col">
         <div className=" w-[90vw] mx-auto mb-4 mt-7 flex justify-center uppercase">
           <h1 className="font-bold tracking-tight text-gray-900 text-5xl">
-            Shirt's
+            Shirt{"'"}s
           </h1>
         </div>
         <Readmore text={paragraphh} maxLength={100} />
